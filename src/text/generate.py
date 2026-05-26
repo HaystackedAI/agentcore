@@ -2,7 +2,7 @@ import boto3
 import json
 import pprint
 
-client = boto3.client(service_name='bedrock-runtime', region_name="us-west-2")
+client = boto3.client(service_name='bedrock-runtime', region_name="us-east-1")
 
 llama_model_id = "meta.llama3-70b-instruct-v1:0"
 llama_config = json.dumps({
